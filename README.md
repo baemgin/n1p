@@ -1,3 +1,5 @@
+![Kotlin](https://img.shields.io/badge/Kotlin-2.2.0-8A2BE2?style=flat-square&logo=kotlin&logoColor=white)
+
 # n1p
 처음으로 만든 플러그인
 
