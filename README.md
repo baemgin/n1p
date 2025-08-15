@@ -1,4 +1,4 @@
-![Kotlin](https://img.shields.io/badge/Kotlin-2.2.0-8A2BE2?style=flat-square&logo=kotlin&logoColor=white)
+[![Kotlin](https://img.shields.io/badge/Kotlin-2.2.0-585DEF.svg?logo=kotlin)](http://kotlinlang.org)
 
 # n1p
 처음으로 만든 플러그인
