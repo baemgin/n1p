@@ -1,4 +1,5 @@
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.2.0-585DEF.svg?logo=kotlin)](http://kotlinlang.org)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 # n1p
 🎉 제가 처음으로 만든 마인크래프트 플러그인입니다!  
