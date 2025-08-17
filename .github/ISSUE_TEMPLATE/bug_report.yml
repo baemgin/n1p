@@ -7,7 +7,7 @@ body:
       value: |
         버그를 제보해주셔서 감사합니다 🙌  
         아래 내용을 **꼭** 채워주세요!
-        
+
   - type: input
     id: server-version
     attributes:
@@ -22,7 +22,7 @@ body:
     attributes:
       label: 자바 버전
       description: 예: Java 17.0.9
-      placeholder: Java 17
+      placeholder: Java 17.0.9
     validations:
       required: true
 
