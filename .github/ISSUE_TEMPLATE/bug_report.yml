@@ -67,7 +67,7 @@ body:
     attributes:
       label: 에러 로그
       description: 에러 로그가 있다면 붙여넣어 주세요 (``` 로 감싸면 코드블럭 처리됨)
-      placeholder: |
+      placeholder: 
         ``` 
         여기에 로그 붙여넣기
         ```
