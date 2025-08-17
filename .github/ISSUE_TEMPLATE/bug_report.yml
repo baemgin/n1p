@@ -1,0 +1,69 @@
+name: 🐛 Bug Report
+description: 플러그인 사용 중 발생한 버그를 알려주세요!
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        버그를 제보해주셔서 감사합니다 🙌  
+        아래 내용을 **꼭** 채워주세요!
+        
+  - type: input
+    id: server-version
+    attributes:
+      label: 서버 버전
+      description: 예: Paper 1.21 build 123
+      placeholder: Paper 1.21 build 123
+    validations:
+      required: true
+
+  - type: input
+    id: java-version
+    attributes:
+      label: 자바 버전
+      description: 예: Java 17.0.9
+      placeholder: Java 17
+    validations:
+      required: true
+
+  - type: input
+    id: plugin-version
+    attributes:
+      label: 플러그인 버전
+      description: 예: n1p v1.0.0-alpha1
+      placeholder: n1p v1.0.0-alpha1
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 방법 (Steps to reproduce)
+      description: 버그를 발생시키는 과정을 단계별로 적어주세요
+      placeholder: |
+        1. 서버 실행
+        2. /menu 입력
+        3. 버튼 클릭
+        4. 에러 발생
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 예상 결과
+      description: 원래 기대했던 동작은 무엇인가요?
+      placeholder: 메뉴가 정상적으로 열려야 함
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: 실제 결과
+      description: 실제로 일어난 현상을 적어주세요
+      placeholder: 메뉴가 열리지 않고 에러 발생
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 에러 로그
+      description: 에러 로그가 있다면 붙여넣어 주세요 (``` 로 감싸면 코드블럭 처리됨)
