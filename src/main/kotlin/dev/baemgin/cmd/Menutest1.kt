@@ -26,7 +26,6 @@ class Menutest1 : CommandExecutor {
             val tpmat : ItemMeta = tp.itemMeta!!
             tpmat.displayName(Component.text("메인로비로 텔레포트", NamedTextColor.GREEN))
             tp.itemMeta = tpmat
-
             inv.setItem(1,tp)
             sender.openInventory(inv)
             return true

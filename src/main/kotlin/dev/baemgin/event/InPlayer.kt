@@ -13,6 +13,10 @@ class InPlayer : Listener {
         event.joinMessage(null)
 
         val player = event.player
+        val url = "https://github.com/baemgin/n1p/releases/download/ResourcePack/CustomGUI.zip"
+        val hash = ""
+        player.setResourcePack(url,hash)
+
         player.sendMessage(Component.text("하이염", NamedTextColor.GREEN))
 
         val ping = player.ping

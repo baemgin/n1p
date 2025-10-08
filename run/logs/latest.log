@@ -1,0 +1,74 @@
+[12:24:38] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.4+7-LTS; Eclipse Adoptium Temurin-21.0.4+7) on Windows 10 10.0 (amd64)
+[12:24:38] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[12:24:38] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[12:24:39] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'D:\dev\ttt\build\libs\ttt-0.1-beta-all.jar'...
+[12:24:40] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'D:\dev\ttt\build\libs\ttt-0.1-beta-all.jar' in 1419ms.
+[12:24:40] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[12:24:40] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - ttt (1.0.0-alpha2)
+[12:24:43] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:24:45] [ServerMain/INFO]: Loaded 1290 recipes
+[12:24:45] [ServerMain/INFO]: Loaded 1399 advancements
+[12:24:45] [Server thread/INFO]: Starting minecraft server version 1.21
+[12:24:45] [Server thread/INFO]: Loading properties
+[12:24:45] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[12:24:45] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[12:24:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:24:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:24:46] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 4 worker threads, and population gen parallelism of 4 threads
+[12:24:46] [Server thread/INFO]: Default game type: SURVIVAL
+[12:24:46] [Server thread/INFO]: Generating keypair
+[12:24:46] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:24:46] [Server thread/INFO]: Using default channel type
+[12:24:46] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[12:24:46] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[12:24:46] [Server thread/INFO]: [ttt] Loading server plugin ttt v1.0.0-alpha2
+[12:24:46] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:24:46] [Server thread/INFO]: Preparing level "world"
+[12:24:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:24:47] [Server thread/INFO]: Time elapsed: 690 ms
+[12:24:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:24:47] [Server thread/INFO]: Time elapsed: 62 ms
+[12:24:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:24:48] [Server thread/INFO]: Time elapsed: 64 ms
+[12:24:48] [Server thread/INFO]: [ttt] Enabling ttt v1.0.0-alpha2
+[12:24:48] [Server thread/INFO]: [spark] Starting background profiler...
+[12:24:48] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[12:24:48] [Server thread/INFO]: Done preparing level "world" (1.440s)
+[12:24:48] [Server thread/INFO]: Running delayed init tasks
+[12:24:48] [Server thread/INFO]: Done (10.663s)! For help, type "help"
+[12:24:48] [Server thread/INFO]: Timings Reset
+[12:24:57] [User Authenticator #0/INFO]: UUID of player baemgin is f394fd3f-e3ce-4ec9-824a-7f116ecf574a
+[12:24:58] [Server thread/INFO]: baemgin[/127.0.0.1:53910] logged in with entity id 51 at ([world]-128.53767796217397, 79.55432986085721, 513.5111328782252)
+[12:25:04] [Server thread/INFO]: baemgin issued server command: /mang
+[12:25:04] [Server thread/INFO]: [ttt] InvFX is ENABLED.
+[12:25:31] [Server thread/INFO]: baemgin issued server command: /mang
+[12:26:13] [Server thread/INFO]: baemgin issued server command: /kick @a 서버 끝
+[12:26:13] [Server thread/INFO]: baemgin lost connection: 서버 끝
+[12:26:13] [Server thread/INFO]: baemgin left the game
+[12:26:13] [Server thread/INFO]: [baemgin: Kicked baemgin: 서버 끝]
+[12:26:22] [Server thread/INFO]: Stopping the server
+[12:26:22] [Server thread/INFO]: Stopping server
+[12:26:22] [Server thread/INFO]: [ttt] Disabling ttt v1.0.0-alpha2
+[12:26:22] [Server thread/INFO]: [ttt] InvFX is DISABLED.
+[12:26:22] [Server thread/INFO]: Saving players
+[12:26:22] [Server thread/INFO]: Saving worlds
+[12:26:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:26:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[12:26:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[12:26:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[12:26:23] [Server thread/INFO]: [ChunkHolderManager] Saved 675 block chunks, 675 entity chunks, 0 poi chunks in world 'world' in 1.37s
+[12:26:23] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[12:26:23] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[12:26:23] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[12:26:23] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[12:26:24] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0.26s
+[12:26:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[12:26:24] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[12:26:24] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[12:26:24] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[12:26:24] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0.21s
+[12:26:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:26:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:26:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:26:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

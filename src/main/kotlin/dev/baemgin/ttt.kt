@@ -1,5 +1,6 @@
 package dev.baemgin
 
+import dev.baemgin.cmd.MangCmd
 import dev.baemgin.event.InPlayer
 import org.bukkit.Bukkit
 import org.bukkit.Material
@@ -29,6 +30,7 @@ class ttt : JavaPlugin(), org.bukkit.command.CommandExecutor {
         instance = this
         getCommand("menu")?.setExecutor(this)
         getCommand("menutest1")?.setExecutor(Menutest1())
+        getCommand("mang")?.setExecutor(MangCmd(this))
         server.pluginManager.registerEvents(Ce(), this)
         server.pluginManager.registerEvents(InPlayer(), this)
     }
@@ -46,7 +48,7 @@ class ttt : JavaPlugin(), org.bukkit.command.CommandExecutor {
 
         if (command.name.equals("menu", ignoreCase = true)) {
             sender.sendMessage("메뉴 커맨드 실행됨!")
-            yseno().menu(sender, Component.text("테스트"), listOf(Component.text("테스트")), { yesa: Boolean ->
+            yseno().menu(sender, Component.text("산치핀치산치핀치산치핀치"), listOf(Component.text("테스트")), { yesa: Boolean ->
                     if (yesa){
                         sender.sendMessage(Component.text("라이센스에 동의하셨습니다.", NamedTextColor.GREEN))
                     }
