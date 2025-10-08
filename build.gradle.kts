@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "dev.baemgin"
-version = "0.1-beta"
+version = "1.0.0-alpha3"
 
 repositories {
     mavenCentral()
