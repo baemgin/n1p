@@ -1,0 +1,17 @@
+name: ✨ Feature Request
+description: 새로운 기능을 제안하고 싶다면 작성해주세요!
+labels: [enhancement]
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: 제안 요약
+      placeholder: 새 메뉴 기능 추가
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: 상세 설명
+      description: 기능이 어떤 상황에서 필요하고, 어떻게 동작해야 하는지 구체적으로 적어주세요
