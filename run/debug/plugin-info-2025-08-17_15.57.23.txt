@@ -1,0 +1,44 @@
+{
+ "providers": {
+  "bootstrapper": {
+   "providers": [],
+   "load-order": []
+  },
+  "plugin": {
+   "providers": [
+    {
+     "name": "ttt",
+     "version": "1.0.0-alpha2",
+     "dependencies": "[]",
+     "soft-dependencies": "[]",
+     "load-before": "[]"
+    }
+   ],
+   "load-order": [
+    "ttt"
+   ]
+  }
+ },
+ "plugins": [
+  "ttt v1.0.0-alpha2"
+ ],
+ "classloaders": {
+  "global": "GLOBAL:SimpleListPluginClassLoaderGroup{classloaders=[PluginClassLoader{plugin=ttt v1.0.0-alpha2, pluginEnabled=true, url=plugins\\.paper-remapped\\extra-plugins\\ttt-1.0.0-alpha2-all-1755413548955.jar}]}",
+  "dependency_graph": "isDirected: true, allowsSelfLoops: false, nodes: [ttt], edges: []",
+  "children": [
+   {
+    "main": "GLOBAL:SimpleListPluginClassLoaderGroup{classloaders=[PluginClassLoader{plugin=ttt v1.0.0-alpha2, pluginEnabled=true, url=plugins\\.paper-remapped\\extra-plugins\\ttt-1.0.0-alpha2-all-1755413548955.jar}]}",
+    "children": [
+     "PluginClassLoader{plugin=ttt v1.0.0-alpha2, pluginEnabled=true, url=plugins\\.paper-remapped\\extra-plugins\\ttt-1.0.0-alpha2-all-1755413548955.jar}"
+    ]
+   },
+   {
+    "main": "SpigotPluginClassLoaderGroup{libraryClassloaderPredicate=io.papermc.paper.plugin.entrypoint.classloader.group.PaperPluginClassLoaderStorage$$Lambda/0x00000118bde44248@31addd41, classloaders=[PluginClassLoader{plugin=ttt v1.0.0-alpha2, pluginEnabled=true, url=plugins\\.paper-remapped\\extra-plugins\\ttt-1.0.0-alpha2-all-1755413548955.jar}]}",
+    "plugin-holder": "PluginClassLoader{plugin=ttt v1.0.0-alpha2, pluginEnabled=true, url=plugins\\.paper-remapped\\extra-plugins\\ttt-1.0.0-alpha2-all-1755413548955.jar}",
+    "children": [
+     "PluginClassLoader{plugin=ttt v1.0.0-alpha2, pluginEnabled=true, url=plugins\\.paper-remapped\\extra-plugins\\ttt-1.0.0-alpha2-all-1755413548955.jar}"
+    ]
+   }
+  ]
+ }
+}

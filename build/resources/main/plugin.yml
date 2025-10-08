@@ -1,0 +1,16 @@
+name: ttt
+version: '1.0.0-alpha2'
+main: dev.baemgin.ttt
+api-version: '1.21'
+authors: [ 뱀긴 ]
+description: 1.21.8용 모드 한국어만 지원합니다
+commands:
+  menu:
+    description: 메뉴창 띄우기 커맨드
+    usage: /menu
+  menutest1:
+    description: 테스트용1줄짜리
+    usage: /menutest1
+  mang:
+    description: 망함
+    usage: /mang

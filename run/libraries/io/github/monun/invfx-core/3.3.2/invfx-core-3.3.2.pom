@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.monun</groupId>
+  <artifactId>invfx-core</artifactId>
+  <version>3.3.2</version>
+  <name>invfx-core</name>
+  <description>Kotlin DSL for PaperMC Inventory GUI</description>
+  <url>https://github.com/monun/invfx</url>
+  <licenses>
+    <license>
+      <name>GNU General Public License version 3</name>
+      <url>https://opensource.org/licenses/GPL-3.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>monun</id>
+      <name>Monun</name>
+      <email>monun1010@gmail.com</email>
+      <url>https://github.com/monun</url>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <timezone>Asia/Seoul</timezone>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/monun/invfx.git</connection>
+    <developerConnection>scm:git:ssh://github.com:monun/invfx.git</developerConnection>
+    <url>https://github.com/monun/invfx</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>io.github.monun</groupId>
+      <artifactId>invfx-api</artifactId>
+      <version>3.3.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.8.22</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-reflect</artifactId>
+      <version>1.8.22</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
