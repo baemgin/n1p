@@ -1,5 +1,5 @@
 name: ttt
-version: '1.0.0-alpha2'
+version: '1.0.0-alpha3'
 main: dev.baemgin.ttt
 api-version: '1.21'
 authors: [ 뱀긴 ]
